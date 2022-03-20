@@ -1,0 +1,73 @@
+#include <stdio.h>
+
+int main()
+{
+    int kenar;                               // Değişkenler
+    printf("Kenar uzunlugunu giriniz:");
+    scanf("%d",&kenar);
+    int x = 1;
+    int y = 1;
+    int satir = kenar;
+    
+    while(y<=satir)  
+    
+    {
+    
+    if(y == 1)
+    {                                       // Karenin 1.Satırı
+        while(x<=kenar)
+        {
+        printf("*");
+        x++;
+        } 
+    
+    }
+    
+    
+    
+    if(y != 1 && y != kenar)                // Diğer Satırlar                           
+    {           
+        printf("\n");
+        int x = 1;
+        printf("*");
+        while(x<=(kenar-2))
+        {
+        printf(" ");
+        x++;
+        }
+        printf("*");
+    }
+    
+    /* 
+      
+    && Operatörü ikisininde True verdiği anda çalışır. 
+    y =2 için y!= 1(y 1 e eşit olmadığı durumlar True ve y != kenar(örneğin 5) 
+    True olduğundan && çalışır.
+    
+    */
+    
+    
+    
+    
+    
+    
+    
+    
+    if(y == kenar && y!= 1)                // Karenin Son Satırı
+    {
+        printf("\n");
+        int x = 1;
+        while(x<=kenar)
+        {
+        printf("*");
+        x++;
+        } 
+    }
+    
+   
+    y++;
+    
+    }
+   
+    return 0;
+}
