@@ -1,0 +1,1 @@
+# Ekrana-Y-ld-zlarla-Kare-Yazd-rma
