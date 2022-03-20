@@ -1,1 +1,1 @@
-# Ekrana-Y-ld-zlarla-Kare-Yazd-rma
+# Ekrana-Yildizlarla-Kare-Yazdirma
